@@ -5,3 +5,19 @@ version = 3
 [[package]]
 name = "lab_addition"
 version = "0.1.0"
+dependencies = [
+ "libm",
+ "round",
+]
+
+[[package]]
+name = "libm"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c7d73b3f436185384286bd8098d17ec07c9a7d2388a6599f824d8502b529702a"
+
+[[package]]
+name = "round"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "da5443da9c42386407d904fe0e58a04be03deacabf0e5b952d265d9f590a6eec"
